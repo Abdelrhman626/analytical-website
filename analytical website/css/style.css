@@ -1,0 +1,313 @@
+:root {
+  --main-color: hsla(140, 6%, 10%, 1);
+}
+
+body {
+  background-color: hsla(140, 6%, 10%, 1);
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: hsla(140, 6%, 10%, 1);
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+.navbar .navbar-nav .nav-link .active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: black;
+}
+/* start=landing */
+.landing {
+  background-color: var(--main-color);
+  color: white;
+  margin-bottom: -10rem;
+  padding-bottom: 20rem;
+}
+
+.landing .label-box {
+  background-color: #5a4616;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.landing a {
+  color: white;
+  padding-left: 5px;
+}
+
+.landing h2 {
+  padding-left: 5px;
+}
+
+.landing .highlight {
+  background-color: #5a3ea3;
+  color: #fff;
+  /* padding: 2px 4px;  */
+  border-radius: 3px;
+}
+
+.landing button {
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
+.landing .Demo {
+  background-color: hsla(140, 6%, 15%, 1);
+  border: 1px;
+}
+
+.landing .Free-Trial {
+  background-color: hsla(250, 100%, 82%, 1);
+  border: 1ex;
+  color: hsla(140, 6%, 10%, 1);
+}
+.landing .container image {
+  /* width: 40%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* end-landing */
+
+/* start-comapanies */
+
+.companies p {
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+
+.companies .logos {
+  border-radius: 0.5rem;
+  padding: 0;
+  /* width: 167px; */
+}
+
+/* end-companies */
+
+/* start-prop */
+
+.prop .container .row {
+  margin-top: 15rem;
+  margin-bottom: 8rem;
+}
+
+/* end-prop */
+
+.diagram img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 10rem;
+}
+
+/* start-our-team */
+.our-team {
+  padding-bottom: 10rem;
+}
+.employee {
+  background-color: #202020;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.employee .quote {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.employee img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
+}
+.employee .name {
+  font-weight: bold;
+}
+.employee .position {
+  color: #999;
+}
+/* end-our-team */
+/* :start-starting-box */
+.starting-box {
+  background-color: #343a40;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 15rem;
+  margin-bottom: 10rem;
+}
+.step {
+  margin: 20px 0;
+}
+.step h5 {
+  font-weight: bold;
+}
+.step p {
+  margin: 10px 0;
+}
+a {
+  color: #00aaff;
+}
+
+/* :start-starting-box */
+
+/* STRAT-FEATURE */
+.fetures {
+  margin-bottom: 10rem;
+}
+
+.fetures .main-features .card-body {
+  background-color: transparent;
+  color: white;
+}
+/* end-features */
+
+.integrated {
+  color: white;
+  background-color: #333;
+  /* padding: 20px; */
+  /* border-radius: 1px; */
+  border-radius: 10px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  /* padding-bottom: 15rem; */
+  margin-bottom: 10rem;
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.btn-custom {
+  background-color: #333;
+  border: 1px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  margin-top: 20px;
+}
+
+.integrated .container .integration-icons svg {
+  /* margin: 7px; */
+  padding: 0.5rem;
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.Trusted {
+  color: white;
+}
+
+.better {
+  color: white;
+  background-color: #333;
+  /* padding: 20px; */
+  /* border-radius: 1px; */
+  border-radius: 10px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  /* padding-bottom: 15rem; */
+  margin-bottom: 10rem;
+  width: auto;
+}
+
+.promo-text {
+  max-width: 60%;
+}
+.promo-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.promo-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.btn-custom-primary {
+  background-color: #a14bfc;
+  border: none;
+
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+.btn-custom-secondary {
+  background-color: #fff;
+  border: 1px solid #333;
+
+  border-radius: 5px;
+  color: #333;
+  text-align: center;
+}
+.promo-section p {
+  margin: 15px 0;
+}
+
+/* pricing..html */
+.pricing {
+  color: white;
+}
+
+.cost {
+  background-color: #000;
+  color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.pricing-plan {
+  background-color: #333;
+  color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: left;
+}
+.pricing-plan h1 {
+  font-size: 2.5rem;
+}
+.pricing-plan p {
+  font-size: 1.2rem;
+}
+.pricing-plan ul {
+  list-style-type: none;
+  padding: 0;
+}
+.pricing-plan ul li {
+  margin-bottom: 10px;
+}
+.pricing-plan .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+.pricing-plan .btn-primary:hover {
+  background-color: #0056b3;
+}
+.small-text {
+  font-size: 0.8rem;
+  color: #888;
+}

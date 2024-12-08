@@ -1,0 +1,96 @@
+:root {
+  --main-color: hsla(140, 6%, 10%, 1);
+}
+
+body {
+  height: 10000px;
+  background-color: hsla(140, 6%, 10%, 1);
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: hsla(140, 6%, 10%, 1);
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
+/* start=landing */
+.landing {
+  background-color: var(--main-color);
+  color: white;
+  margin-bottom: -10rem;
+}
+
+.landing .label-box {
+  background-color: #5a4616;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.landing a {
+  color: white;
+  padding-left: 5px;
+}
+
+.landing h2 {
+  padding-left: 5px;
+}
+
+.landing .highlight {
+  background-color: #5a3ea3;
+  color: #fff;
+  /* padding: 2px 4px;  */
+  border-radius: 3px;
+}
+
+.landing button {
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
+.landing .Demo {
+  background-color: hsla(140, 6%, 15%, 1);
+  border: 1px;
+}
+
+.landing .Free-Trial {
+  background-color: hsla(250, 100%, 82%, 1);
+  border: 1ex;
+  color: hsla(140, 6%, 10%, 1);
+}
+.landing .container image {
+  /* width: 40%; */
+  line-height: 1;
+}
+/* end-landing */
+
+/* start-comapanies */
+.companies p {
+  text-align: center;
+  color: white;
+}
+
+.companies .logos {
+  border-radius: 0.5rem;
+  padding: 0;
+  /* width: 167px; */
+}
+
+/* end-companies */
+
+/* start-prop */
+
+.prop .container .row {
+  margin-top: 15rem;
+  margin-bottom: 8rem;
+}
+
+/* end-prop */
+
+.stunk-dashs {
+  width: 25rem;
+  height: 200px;
+}

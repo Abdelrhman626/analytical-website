@@ -1,0 +1,49 @@
+body {
+  background-color: #1d1f21;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.card {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+}
+.form-control {
+  background-color: #2d2f31;
+  border: 1px solid #4b4f51;
+  color: #ffffff;
+}
+.form-control:focus {
+  background-color: #2d2f31;
+  border-color: #6c757d;
+  box-shadow: none;
+}
+.btn-primary {
+  background-color: #8f7af5;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #7764cc;
+}
+.form-check-input {
+  background-color: #2d2f31;
+  border: 1px solid #4b4f51;
+}
+.form-check-label {
+  color: #cccccc;
+}
+.links {
+  color: #8f7af5;
+  font-size: 0.875rem;
+}
+.links:hover {
+  color: #ffffff;
+}

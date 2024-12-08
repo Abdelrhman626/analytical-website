@@ -1,0 +1,83 @@
+body {
+  background-color: #191919;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+
+.pricing-option {
+  background-color: #282828;
+  border: 2px solid transparent;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.pricing-option:hover,
+.pricing-option.active {
+  border-color: #8f7af5;
+}
+
+.btn-primary-custom {
+  background-color: #8f7af5;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  color: #000000;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.btn-primary-custom:hover {
+  background-color: #b29cf9;
+}
+
+.trusted-logos img {
+  max-height: 40px;
+  margin-right: 1.5rem;
+}
+
+.trusted-logos {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #1d1f21;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.form-floating > .form-control,
+.form-floating > .form-control-plaintext,
+.form-floating > .form-select {
+  color: #cccccc;
+  background-color: #333333;
+  border-color: #333333;
+  border-radius: 5px;
+}
+
+.form-floating > .form-control:focus,
+.form-floating > .form-select:focus {
+  border-color: #8f7af5;
+  box-shadow: none;
+}
+
+.form-floating > .form-label {
+  color: #888888;
+}
+
+.save-text {
+  color: #ffff00;
+}
